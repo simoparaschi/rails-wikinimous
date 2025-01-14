@@ -1,9 +1,12 @@
 <h1>Create new article</h1>
 
-<%= form_with model: @new_article do |f| %>
-  <%= f.label :title %>
-  <%= f.text_field :title %>
-  <%= f.label :content %>
-  <%= f.text_field :content %>
-  <%= f.submit %>
-<% end %>
+<div class="container">
+  <%= form_with model: @new_article do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <%= f.label :content %>
+    <%= f.text_field :content %>
+    <%= f.submit %>
+  <% end %>
+</div>
+<p><%= link_to "Cancel and back to all articles", articles_path() %></p>
