@@ -32,4 +32,11 @@ p {
   padding-bottom: 32px;
 }
 
-.
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex > p{
+  margin-left: 16px;
+}
