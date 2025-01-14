@@ -17,6 +17,9 @@ class ArticlesController < ApplicationController
     redirect_to articles_path
   end
 
+  def edit
+  end
+
   private
 
   def find_article
