@@ -40,3 +40,12 @@ p {
 .flex > p{
   margin-left: 16px;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 12px;
+}
